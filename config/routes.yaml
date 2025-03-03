@@ -12,3 +12,6 @@ App_home_bonjour:
 App_accueil_negatif:
     path: "/negatif/{nbr1}/{nbr2}"
     controller: App\Controller\AccueilController::negatif
+App_accueil_calcul:
+    path: "/calcul/{nbr1}/{nbr2}/{ordre}"
+    controller: App\Controller\AccueilController::calcul
