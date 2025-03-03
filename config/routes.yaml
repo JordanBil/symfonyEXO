@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+App_home_hello:
+    path: "/hello"
+    controller: App\Controller\HomeController::hello
+App_home_bonjour:
+    path: "/helloworld"
+    controller: App\Controller\HomeController::helloWorld
+App_accueil_negatif:
+    path: "/negatif/{nbr1},{nbr2}"
+    controller: App\Controller\AccueilController::negatif
